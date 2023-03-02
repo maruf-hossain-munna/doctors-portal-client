@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "name" : "Dr. David Costa",
+        "title" : "General Dentist",
+        "img" : "https://i.ibb.co/ZgMqSdF/1.png"
+    },
+    {
+        "id" : 2,
+        "name" : "Dr. Julia Smith",
+        "title" : "Orthodontist",
+        "img" : "https://i.ibb.co/f9bxYf7/2.png"
+    },
+    {
+        "id" : 3,
+        "name" : "Dr. Thomas Albart",
+        "title" : "Dental Sergeon",
+        "img" : "https://i.ibb.co/CtVjCB6/3.png"
+    },
+    {
+        "id" : 4,
+        "name" : "Dr. Rebeca Smith",
+        "title" : "Cosmetic Dentist",
+        "img" : "https://i.ibb.co/1zLDGF2/4.png"
+    }
+]
+
