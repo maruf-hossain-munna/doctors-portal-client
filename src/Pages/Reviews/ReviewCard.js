@@ -3,7 +3,7 @@ import React from 'react';
 const ReviewCard = ({ review }) => {
     const { img, name, location, description } = review;
     return (
-        <div className='card rounded-xl shadow-xl hover:shadow-black py-8 px-10'>
+        <div className='card rounded-xl shadow-xl hover:shadow-primary py-8 px-10'>
             <div className='flex items-center mb-3'>
 
                 <div className="avatar">

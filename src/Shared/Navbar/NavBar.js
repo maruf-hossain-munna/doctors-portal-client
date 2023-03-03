@@ -32,7 +32,7 @@ const NavBar = () => {
 
     return (
         <div>
-            <div className="navbar bg-base-100 flex justify-between container mx-auto">
+            <div className="navbar bg-base-100 flex font-poppins tracking-wide justify-between container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -44,8 +44,8 @@ const NavBar = () => {
                     </div>
                     <Link to='/' className="btn btn-ghost normal-case font-semibold text-xl tracking-wide"><span className='text-blue-600 hover:text-black mr-2'>Doctors </span> <span className='text-red-600 hover:text-black'> Portal </span></Link>
                 </div>
-                <div className="navbar-center text-xl font-semibold  hidden lg:flex">
-                    <ul className="menu menu-horizontal gap-3 p-3 ">
+                <div className="navbar-center text-xl  font-semibold hidden lg:flex">
+                    <ul className="menu menu-horizontal gap-3 p-3 font-poppins">
                         {menuItems}
                     </ul>
                 </div>

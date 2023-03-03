@@ -10,7 +10,8 @@ const AboutBanner = () => {
                 </div>
                 <div className='lg:w-1/2'>
                     <h4 className='text-xl text-secondary font-bold uppercase tracking-wider mb-3'>Since 2019</h4>
-                    <h1 className="lg:text-6xl text-4xl font-semibold ">Keep your <span className='text-secondary tracking-wide'>Teeth <br /> Clean</span> & Shine</h1>
+                    <h1 className="lg:text-6xl text-4xl font-semibold mb-4">Keep your <span className='text-secondary tracking-wide'>Teeth </span> </h1>
+                    <h1 className="lg:text-6xl text-4xl font-semibold "> <span className='text-secondary tracking-wide'> Clean</span> & Shine</h1>
                     <p className="py-6 text-lg font-poppins">Dental care is the maintenance of healthy teeth and the practice of keeping the mouth and teeth clean pur sue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone.</p>
                     <p className='text-primary lg:text-2xl text-xl font-poppins font-semibold'>You need to brush your teeth everyday for healty teeth and simle</p>
                     

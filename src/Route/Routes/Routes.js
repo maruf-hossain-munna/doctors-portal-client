@@ -2,6 +2,8 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Appointment from '../../Appointment/Appointment/Appointment';
 import Dashboard from '../../Dashboard/Dashboard/Dashboard';
+import MyAppintments from '../../Dashboard/MyAppintments/MyAppintments';
+import DashboardLayout from '../../Layout/DashboardLayout';
 import Main from '../../Layout/Main';
 import AboutUs from '../../Pages/About/AboutUs/AboutUs';
 import ErrorPage from '../../Pages/ErrorPage/ErrorPage';
@@ -35,9 +37,20 @@ const routes = createBrowserRouter([
                 path: '/appointment',
                 element: <Appointment></Appointment>,
             }, 
+            
+        ]
+    },
+    {
+        path: '/dashboard',
+        element: <PrivateRoute>  <DashboardLayout></DashboardLayout> </PrivateRoute> ,
+        children:[
             {
                 path: '/dashboard',
                 element: <PrivateRoute>  <Dashboard></Dashboard> </PrivateRoute>
+            },
+            {
+                path: '/dashboard/myAppintments',
+                element: <PrivateRoute> <MyAppintments></MyAppintments> </PrivateRoute>
             }
         ]
     },

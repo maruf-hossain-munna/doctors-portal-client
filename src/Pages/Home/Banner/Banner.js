@@ -2,6 +2,7 @@ import React from 'react';
 import banner from '../../../assets/images/chair.png';
 import bgimg from '../../../assets/images/bg.png'
 import PrimaryButton from '../../../ButtonComponents/PrimaryButton';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -13,7 +14,7 @@ const Banner = () => {
                 <div className='lg:w-1/2'>
                     <h1 className="lg:text-6xl text-4xl tracking-wide font-shippori font-bold">Your New <span className='text-secondary tracking-wide'>Smile Starts</span>  Here</h1>
                     <p className="py-6 text-lg font-poppins">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <PrimaryButton >Get Started </PrimaryButton>
+                    <PrimaryButton ><Link to='/appointment'>Get Started </Link></PrimaryButton>
                 </div>
             </div>
 

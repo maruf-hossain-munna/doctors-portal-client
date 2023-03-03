@@ -12,7 +12,7 @@ const BannerCard = () => {
                         <img className='w-3/4' src={clockIcon} alt="" />
                     </div>
                     <div className='text-white'>
-                        <h5 className='font-bold text-xl '>Opening Hours</h5>
+                        <h5 className='font-bold text-xl font-poppins  '>Opening Hours</h5>
                         <p className='text-sm '>Lorem Ipsum is simply dummy text of <br /> the pri</p>
                     </div>
                 </div>
@@ -22,7 +22,7 @@ const BannerCard = () => {
                         <img className='w-3/4' src={locationIcon} alt="" />
                     </div>
                     <div className='text-white'>
-                        <h5 className='font-bold text-xl '>Visit our location</h5>
+                        <h5 className='font-bold text-xl font-poppins  '>Visit our location</h5>
                         <p className='text-sm '>Brooklyn, NY 10036, United States</p>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const BannerCard = () => {
                         <img className='w-3/4 text-white' src={phoneIcon} alt="" />
                     </div>
                     <div className='text-white'>
-                        <h5 className='font-bold text-xl '>Contact us now</h5>
+                        <h5 className='font-bold text-xl font-poppins  '>Contact us now</h5>
                         <p className='text-sm '>+000 123 456789</p>
                     </div>
                 </div>

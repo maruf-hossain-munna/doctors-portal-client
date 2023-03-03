@@ -14,7 +14,8 @@ const WhyWeBest = () => {
                 </div>
                 <div className='lg:w-1/2'>
                     <h4 className='text-xl text-secondary font-bold uppercase tracking-wider mb-3'>Why we best </h4>
-                    <h1 className="lg:text-6xl text-4xl font-semibold ">People <span className='text-secondary tracking-wide'>Choose <br /> Us</span> Because...</h1>
+                    <h1 className="lg:text-6xl text-4xl font-semibold mb-4">People <span className='text-secondary tracking-wide'>Choose </span> </h1>
+                    <h1 className="lg:text-6xl text-4xl font-semibold "> <span className='text-secondary tracking-wide'> Us</span> Because...</h1>
                     <p className="py-6 text-lg font-poppins">Dental care is the maintenance of healthy teeth and the practice of keeping the teeth clean.</p>
 
                     <div className='grid gap-6 lg:w-3/4'>

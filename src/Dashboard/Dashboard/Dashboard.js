@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
     return (
         <div>
-            <h2>Coming soooooooon........</h2>
+            
         </div>
+
     );
 };
 
